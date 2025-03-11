@@ -1,0 +1,58 @@
+.progress {
+    margin-top: 100px;
+}
+
+.progress__title {
+    font-family: var(--fontP);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #645c55;
+}
+
+.progress__subtitle {
+    font-family: var(--fontP);
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 108%;
+    text-align: center;
+    color: #1b1a1a;
+}
+
+.progress__list {
+    margin-top: 40px;
+    display: flex;
+    gap: 16px;
+}
+
+.progress__list-item {
+    flex-direction: column;
+}
+
+.progress__list-item img {
+    display: flex;
+    justify-self: center;
+    width: 117px;
+    margin-bottom: 15px;
+}
+
+.progress__item-title {
+    font-family: var(--fontP);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 153%;
+    text-align: center;
+    color: #403e3b;
+}
+
+.progress__item-desc {
+    font-family: var(--fontP);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #645c55;
+}
