@@ -3,7 +3,6 @@
 }
 
 .progress__title {
-    font-family: var(--fontP);
     font-weight: 400;
     font-size: 14px;
     line-height: 143%;
@@ -14,7 +13,6 @@
 }
 
 .progress__subtitle {
-    font-family: var(--fontP);
     font-weight: 400;
     font-size: 39px;
     line-height: 108%;
@@ -30,6 +28,8 @@
 
 .progress__list-item {
     flex-direction: column;
+    max-width: 378px;
+    padding: 0 42px;
 }
 
 .progress__list-item img {
@@ -40,7 +40,6 @@
 }
 
 .progress__item-title {
-    font-family: var(--fontP);
     font-weight: 400;
     font-size: 17px;
     line-height: 153%;
@@ -49,7 +48,6 @@
 }
 
 .progress__item-desc {
-    font-family: var(--fontP);
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;

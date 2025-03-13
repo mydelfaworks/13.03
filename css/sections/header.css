@@ -5,16 +5,15 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav__list {
     display: flex;
     column-gap: 32px;
-    align-items: center;
 }
 
 .nav__item a {
-    font-family: var(--fontP);
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
